@@ -21,15 +21,11 @@ function Velasco2() {
           <div class="item4">4</div>
         </div>
       </div>  
-    <div class="grid-container">
-        <div class="grid-container-left">
-          <div class="item5">5</div>
-          <div class="item6">6</div>
-        </div>
-        <div class="grid-container-right">
-          <div class="item7">7</div>  
-          <div class="item8">8</div>
-        </div>
+      <div class="grid-container">
+      <div class="item5">5</div>
+      <div class="item6">6</div>
+      <div class="item7">7</div>  
+      <div class="item8">8</div>
       </div>  
     </div>   
   );
