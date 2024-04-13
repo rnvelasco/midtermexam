@@ -1,0 +1,62 @@
+body {
+  max-width: 500px;
+  margin: auto;
+}
+
+.Velasco {
+  height: 500px;
+  line-height: 500px;
+  margin:auto;
+  text-align: center;
+  background-color: #FF9500;
+  border: 1px solid #1C1C1C;
+}
+
+.item5 { grid-area: five; }
+.item6 { grid-area: six; }
+.item7 { grid-area: seven; }
+.item8 { grid-area: eight; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2196F3;
+}
+
+.grid-container-left {
+  display: grid;
+  grid-template-areas: "five six";
+}
+
+
+.grid-container > div > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 40px;
+  margin: 1px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #2196F3;
+}
+
+.flex-container-left {
+  flex: 1;
+}
+
+.flex-container-right {
+  display: flex;
+  flex: 1;
+}
+
+.flex-container-right > div {
+  flex: 1;
+}
+
+.flex-container > div > div {
+  text-align: center;
+  font-size: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 1px;
+}
